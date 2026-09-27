@@ -9,3 +9,6 @@ output.bak/
 npm-debug.log
 .psa-stash
 .spago
+java_output/
+classes/
+.spago/
