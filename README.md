@@ -1,5 +1,10 @@
 # purescript-variant
 
+## JVM tests
+
+`./bin/test` selects `variant` in the [common isolated runner](../javapurs/docs/testing.md#port-particulier), preserving this checkout and its outputs.
+Use `./bin/test --help` for options and `./bin/test --clean` to rebuild the backend. The linked guide covers prerequisites, Java target/runtime settings and retained failure logs.
+
 [![Latest release](http://img.shields.io/github/release/natefaubion/purescript-variant.svg)](https://github.com/natefaubion/purescript-variant/releases)
 [![Build status](https://travis-ci.org/natefaubion/purescript-variant.svg?branch=master)](https://travis-ci.org/natefaubion/purescript-variant)
 
